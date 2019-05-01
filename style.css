@@ -1,0 +1,99 @@
+h1, h2, h3 {
+  font-family: 'Fira Sans', sans-serif;
+  color: #333333;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2, h3 {
+  font-size: 20px;
+}
+
+p, a {
+  font-family: 'Fira Sans', sans-serif;
+  color: #666666;
+  line-height: 2;
+}
+
+body {
+  background-color: white;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+  color: #c40b13;
+}
+
+.container {
+  border-radius: 4px;
+  background: white;
+  width: 700px;
+  margin: 20 auto;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card {
+  border-radius: 4px;
+  background: #ECE9E0;
+  margin: 30px;
+  text-align: left;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.list-inline {
+ padding: 0px;
+ list-style: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  margin: 20px;
+  color: #c40b13;
+}
+
+.btn-grey {
+  background: #333333;
+  padding: 12px 34px;
+  color: #ECE9E0;
+  border-radius: 4px;
+ /* align-items: right;*/
+ }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.red-color {
+  color: #c40b13;
+}
